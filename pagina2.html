@@ -12,6 +12,35 @@
         <h1>Modelo Entidad Relación</h1>
         <p>2.1. Relaciones entre entidades.</p>
 	<p>2.2. Relaciones de uno a muchos.</p>
+	
+	    <p> Modelo Entidad-Relación (ER) - Relación Uno a Muchos
+		En el modelo entidad-relación (ER), la relación uno a muchos (1:N) describe una relación en la que una entidad A puede estar asociada con múltiples instancias de una entidad B, pero una instancia de B solo puede estar asociada con una instancia de A.
+		Entidad A: Tabla o entidad que representa un objeto único (por ejemplo, "Autor").
+		Entidad B: Tabla o entidad que representa múltiples objetos que están relacionados con una única instancia de A (por ejemplo, "Libro").
+		Relación: El autor puede escribir varios libros, pero cada libro tiene un solo autor.
+		Ejemplo:
+		Autor y Libro.
+		Un autor puede escribir varios libros, pero cada libro tiene un solo autor.
+		La relación es uno a muchos (1:N). </p>
+
+	    <p>	Ejemplo:
+		Un sistema de gestión de estudiantes y cursos, donde un curso puede tener muchos estudiantes, pero cada estudiante está inscrito en un solo curso.
+		+------------------+         1  +-------------------+
+		|    Curso        | ------------|   Estudiante      |
+		|-----------------|         N   |-------------------|
+		| id_curso (PK)   |             | id_estudiante (PK)|
+		| nombre          |             | nombre            |
+		| duración        |             | id_curso (FK)     |
+		+-----------------+             +-------------------+
+		(PK) = Clave primaria (Primary Key)
+		(FK) = Clave foránea (Foreign Key)
+		📌 Explicación:
+
+		La entidad Curso tiene un identificador único (id_curso).
+		La entidad Estudiante tiene un identificador único (id_estudiante) y una clave foránea (id_curso) que indica en qué curso está inscrito.
+		La relación es Uno a Muchos (1:N) porque un curso puede tener muchos estudiantes, pero cada estudiante pertenece a un solo curso.
+	    </p>
+	    
 	<p>2.3. Relaciones de muchos a muchos.</p>
 	<p>2.4. Relaciones de uno a uno.</p>
         <a href="index.html" class="back">Volver al inicio</a>
