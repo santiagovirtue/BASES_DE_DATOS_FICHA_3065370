@@ -5,11 +5,13 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 
 ## 📌 Participantes
 
+
 1. 🚀 **Belman Marin Franco**
 2. 🎸 **María López**
 3. 🏀 **Carlos Ramírez**
 4. 🎨 **Ana Torres**
-5. 🎉 **Frank Caceres**
+5. 🎉 **Frank Caceceres**
+6. Santiago Gutierrez Acevedo
 
 ---
 
@@ -23,7 +25,7 @@ Aquí algunas referencias rápidas para formatear este archivo correctamente:
 - Listas:
   - `- Elemento 1`
   - `- Elemento 2`
-- Links: `[Texto del enlace](https://ejemplo.com)`
+- Links: `[dia del mes](https://ejemplo.com)`
 - Imágenes: `![Texto alternativo](https://url-de-la-imagen.com)`
 
 Para más información, consulta la guía oficial de Markdown: [Markdown Guide](https://www.markdownguide.org/)
