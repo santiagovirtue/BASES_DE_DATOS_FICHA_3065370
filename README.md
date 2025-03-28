@@ -10,8 +10,13 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 3. 🏀 **Carlos Ramírez**
 4. 🎨 **Ana Torres**
 5. 🎉 **Frank Caceres**
+
 11. 🛹 **Esteban Velandia**
 6. **Kevin Andres Rojas**
+=======
+24. ☺️ **Nubia Yesenia Campos Ortega**
+6. **Kevin Andres Rojas**
+
 ---
 
 ## 🛠 Ayuda para Markdown
