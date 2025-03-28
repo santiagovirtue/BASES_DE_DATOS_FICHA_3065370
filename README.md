@@ -30,3 +30,5 @@ Aquí algunas referencias rápidas para formatear este archivo correctamente:
 Para más información, consulta la guía oficial de Markdown: [Markdown Guide](https://www.markdownguide.org/)
 
 🚀 ¡Feliz edición! 🎉
+
+![image alt](https://github.com/Dalton-Mar/BASES_DE_DATOS_FICHA_3065370/blob/main/manejadores%20de%20base%20de%20datos.jpg?raw=true)
