@@ -10,6 +10,8 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 3. 🏀 **Carlos Ramírez**
 4. 🎨 **Ana Torres**
 5. 🎉 **Frank Caceres**
+24. ☺️ **Nubia Yesenia Campos Ortega**
+
 
 ---
 
