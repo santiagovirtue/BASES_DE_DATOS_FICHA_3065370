@@ -10,7 +10,23 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 3. 🏀 **Carlos Ramírez**
 4. 🎨 **Ana Torres**
 5. 🎉 **Frank Caceres**
-6. 😁 **Cristian Martinez**
+23.😁 **Cristian Martinez**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -31,4 +47,4 @@ Para más información, consulta la guía oficial de Markdown: [Markdown Guide](
 
 🚀 ¡Feliz edición! 🎉
 
-![image alt](https://github.com/Dalton-Mar/BASES_DE_DATOS_FICHA_3065370/blob/main/manejadores%20de%20base%20de%20datos.jpg?raw=true)
+
