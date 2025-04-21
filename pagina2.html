@@ -10,9 +10,70 @@
 <body>
     <div class="container">
         <h1>Modelo Entidad Relación</h1>
+	    <p>Es una metodología para diseñar y representar bases de datos de una manera conceptual, se usa <BR>para estructurar la información de un sistema de entidades, atributos y relaciones <BR>Componentes principales del MER</p>
+		<p>Entidades: estas representas objetos u conceptos que tienen existencia en el mundo real que tienen una existencia<br>independiente a la base de datos, se clasifica en:</p>
+	<p1>-Entidades fuertes: Son una Fuente totalmente independiente como Cliente y Proveedor</p1>
+	<p2>-Entidades débiles: Depende de otra entidad para existir como “Detalles de factura” depende de “factura”</p2>
         <p>2.1. Relaciones entre entidades.</p>
+	 <p> las relaciones entre entidades son conexiones que se establecen entre dos o más entidades en una base de datos. Estas relaciones se representan en un diagrama de entidad-relación (ERD).<br> 
+<ol>Tipos de relaciones 
+Grado 1 o relación urinaria: Relaciona una entidad consigo misma. Este es el caso de un delegado de alumnos de un curso que también es alumno del curso. 
+Grado 2 o relación binaria: Conecta dos entidades distintas. Por ejemplo, un proveedor que suministra artículos. 
+Grado 3 o relación ternaria: Vincula tres o más entidades. Por ejemplo, un cliente de un banco que tiene varias cuentas y cada una en una sucursal. </ol><br>
+Las relaciones entre entidades pueden tener diferentes tipos de correspondencia, que indican cómo se conectan entre sí:
+1:1 (Uno a uno): A cada elemento de la primera entidad le corresponde uno y solo uno de la segunda entidad, y viceversa. Por ejemplo, un cliente de un hotel ocupa una única habitación, o un curso de alumnos está asignado a un solo aula, y solo ese grupo de alumnos asiste a esa aula.
+1:N (Uno a muchos): A cada elemento de la primera entidad le corresponde uno o más elementos de la segunda entidad, pero a cada elemento de la segunda entidad solo le corresponde uno de la primera entidad. Un ejemplo sería un proveedor que suministra varios artículos, pero cada artículo tiene un único proveedor.
+N:M (Varios a varios): Varias ocurrencias de una entidad pueden estar asociadas a varias de la otra. Por ejemplo, un estudiante puede inscribirse en varios cursos, y cada curso puede tener varios estudiantes inscritos.</p>
 	<p>2.2. Relaciones de uno a muchos.</p>
+	
+	    <p> Modelo Entidad-Relación (ER) - Relación Uno a Muchos </p>
+
+		<p>En el modelo entidad-relación (ER), la relación uno a muchos (1:N) </p>
+
+		<p><br> describe una relación en la que una entidad A puede estar asociada con múltiples instancias de una entidad B, pero una instancia de B solo puede estar asociada con una instancia de A. </p>
+
+		<p><br> Entidad A: Tabla o entidad que representa un objeto único (por ejemplo, "Autor"). </p>
+
+		<p><br> Entidad B: Tabla o entidad que representa múltiples objetos que están relacionados con una única instancia de A (por ejemplo, "Libro"). </p>
+
+		<p><br> Relación: El autor puede escribir varios libros, pero cada libro tiene un solo autor. </p>
+
+		<p><br> Ejemplo: </p>
+
+		<p><br> Autor y Libro. </p>
+
+		<p><br> Un autor puede escribir varios libros, pero cada libro tiene un solo autor. </p>
+
+		<p><br> La relación es uno a muchos (1:N). </p>
+		 </p>
+
+	    <p>	<br> Ejemplo:
+		<br> Un sistema de gestión de estudiantes y cursos, donde un curso puede tener muchos estudiantes, 
+		<br> pero cada estudiante está inscrito en un solo curso.
+		<br> +------------------+         1  +-------------------+
+		<br> |    Curso        | ------------|   Estudiante      |
+		<br> |-----------------|         N   |-------------------|
+		<br> | id_curso (PK)   |             | id_estudiante (PK)|
+		<br> | nombre          |             | nombre            |
+		<br> | duración        |             | id_curso (FK)     |
+		<br> +-----------------+             +-------------------+
+		<br> (PK) = Clave primaria (Primary Key)
+		<br> (FK) = Clave foránea (Foreign Key)
+		<br> 📌 Explicación:
+
+		<br> La entidad Curso tiene un identificador único (id_curso).
+		<br> La entidad Estudiante tiene un identificador único (id_estudiante) y una clave foránea (id_curso) que indica en qué curso está inscrito.
+		<br> La relación es Uno a Muchos (1:N) porque un curso puede tener muchos estudiantes, pero cada estudiante pertenece a un solo curso.
+	    </p>
+	    
 	<p>2.3. Relaciones de muchos a muchos.</p>
+	     <p>En bases de datos relacionales, una relación de muchos a muchos (M:N) se da cuando múltiples registros de una tabla pueden estar asociados con múltiples registros de otra tabla. 
+		    Este tipo de relación no puede ser representada directamente entre dos tablas,
+		    por lo que se necesita una tabla intermedia (también conocida como tabla puente o de relación) que contenga claves foráneas de ambas tablas relacionadas.
+Ejemplo:Imaginemos dos entidades: Estudiantes y Cursos.
+Un estudiante puede estar inscrito en varios cursos.
+Un curso puede tener varios estudiantes inscritos.
+		    https://sl.bing.net/dNJvaKmDWAC </p>
 	<p>2.4. Relaciones de uno a uno.</p>
         <a href="index.html" class="back">Volver al inicio</a>
     </div>
