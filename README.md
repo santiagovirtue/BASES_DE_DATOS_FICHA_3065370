@@ -6,6 +6,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 ## 📌 Participantes
 
 0. 🚀 **Belman Marin Franco**
+1. 🦊 **Henry Forero Lopez**
 2. 🎸 **María López**
 3. 🏀 **Cristian Baena**
 4. 🎨 **Anderson Alzate**
