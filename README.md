@@ -14,6 +14,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 7. 🐲 **Sebastián Ardila**
 8. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
+14.😆 **Jhon Aguilera**   
 16.🐱‍👤 Julian lozano 
 17.🎮 **Michael Rey**
 18.💗​ **Fernanda Barrera**
