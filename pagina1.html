@@ -9,6 +9,57 @@
 </head>
 <body>
     <div class="container">
+    <h1>Conceptos Generales de Bases de Datos</h1>
+    <img src="https://www.grupoftp.com/noticias/wp-content/uploads/2015/09/bases-de-datos-empresas.png" alt="Ejemplo de base de datos">
+    <p>Una base de datos es un sistema organizado que permite almacenar, gestionar y acceder a grandes cantidades de información de manera electrónica. Los datos se organizan en tablas, que están formadas por filas y columnas. Cada fila (o registro) contiene una entrada única de información, y cada columna define el tipo de dato que se almacenará, como nombres, fechas o números. Las bases de datos permiten acceder, modificar, agregar o eliminar estos datos de manera eficiente, lo que facilita la manipulación y análisis de la información.</p>
+    <p>El principal objetivo de una base de datos es facilitar la organización de la información y permitir un acceso rápido y seguro a los datos cuando sea necesario. Esto es crucial para tareas como la gestión de inventarios, el seguimiento de transacciones bancarias, la organización de registros médicos o el manejo de usuarios en redes sociales.</p>
+    <p>Las bases de datos son fundamentales en diversos sectores, como empresas, salud, educación, gobierno y muchas aplicaciones en línea. Por ejemplo, cuando realizamos compras en línea, la información de nuestros pedidos, pagos y envíos se guarda en una base de datos. Igualmente, en un cajero automático, la base de datos verifica nuestro saldo antes de autorizar una transacción.</p>
+    <h2>Tipos de Bases de Datos</h2>
+      <ul>
+        <li>Relacionales (que usan tablas y relaciones entre ellas).</li>
+        <li>NoSQL (diseñadas para manejar grandes volúmenes de datos no estructurados).</li>
+        <li>Espaciales (para mapas).</li>
+        <li>Multimedia (para imágenes y videos).</li>
+      </ul>
+    <p>Cada tipo de base de datos tiene sus propias ventajas y es más adecuado para ciertos usos dependiendo de las necesidades del proyecto.</p>
+    <h2>Herramientas de Gestión</h2>
+    <p>Para gestionar estas bases de datos, existen herramientas como:</p>
+      <ul>
+        <li>MySQL</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+      </ul>
+    <p>Estas herramientas permiten organizar, almacenar y recuperar los datos de manera eficiente, asegurando que estén disponibles de forma rápida y confiable.</p>
+    <p>En resumen, las bases de datos son una parte fundamental del entorno digital, ya que nos permiten organizar la información de forma eficiente, garantizando su acceso y seguridad cuando sea necesario. Sin ellas, muchas de las aplicaciones y servicios que usamos a diario no podrían funcionar de manera eficiente.</p>
+    <p>Para más información, visita el siguiente enlace: <a href="https://www.godaddy.com/resources/latam/stories/que-es-una-base-de-datos" target="_blank">Godaddy - ¿Qué es una base de datos?</a></p>
+    <h1>1.1.Tipos de datos y restricción de no nulidad</h1>
+    <p>Las restricciones en SQL Server son reglas que aseguran la integridad y confiabilidad de los datos en una tabla, ya sea a nivel de columna o de tabla completa. Estas restricciones se pueden aplicar durante la creación de la tabla o después de crearla mediante una modificación con ALTER TABLE. A continuación, revisamos tres de las restricciones más comunes:</p>
+    <h2>Restricción NOT NULL</h2>
+    <img src="https://www.migueltroyano.com/wp-content/uploads/2023/12/oracle_not_null.png" alt="Ejemplo de restricción NOT NULL">
+    <p>Esta restricción asegura que una columna no pueda aceptar valores NULL. Si intentas insertar un valor NULL en una columna con esta restricción, obtendrás un error.</p>
+    <ul>
+        <li>Garantiza que siempre haya un valor en la columna.</li>
+        <li>Si no se proporciona un valor, el registro no se insertará.</li>
+        <li>Ejemplo: en la tabla <strong>ConstraintDemo1</strong>, la columna <strong>ID</strong> tiene la restricción NOT NULL.</li>
+    </ul>
+    <h2>Restricción UNIQUE</h2>
+    <img src="https://www.migueltroyano.com/wp-content/uploads/2022/03/postgresql_restriccion_unique.jpg" alt="Ejemplo de restricción UNIQUE">
+    <p>La restricción UNIQUE garantiza que todos los valores en una columna (o combinación de columnas) sean distintos, aunque permite que haya un solo valor NULL si la columna lo permite.</p>
+    <ul>
+        <li>Impide la duplicación de valores en la columna.</li>
+        <li>Permite un único valor NULL si está configurado.</li>
+        <li>Ejemplo: en la tabla <strong>ConstraintDemo2</strong>, la columna <strong>ID</strong> tiene una restricción UNIQUE.</li>
+    </ul>
+    <h2>Restricción PRIMARY KEY</h2
+    <p>La restricción PRIMARY KEY se utiliza para identificar de manera única cada fila de la tabla, combinando las restricciones UNIQUE y NOT NULL.</p>
+    <ul>
+        <li>Garantiza que cada valor de la clave primaria sea único y no NULL.</li>
+        <li>Una tabla solo puede tener una clave primaria.</li>
+        <li>Ejemplo: en la tabla <strong>ConstraintDemo3</strong>, la columna <strong>ID</strong> tiene la restricción PRIMARY KEY.</li>
+    </ul>
+    <h2>Conclusión</h2>
+    <p>Estas tres restricciones permiten controlar mejor cómo se almacenan los datos, evitando valores duplicados o nulos en columnas críticas y asegurando la integridad de las relaciones entre datos dentro de una tabla.</p>
+    <p>Fuente: <a href="https://www.sqlshack.com/es/restricciones-en-sql-server-sql-not-null-unique-y-sql-primary-key/" target="_blank">SQL Shack</a></p>
         <h1>1. Conceptos Generales de Bases de Datos</h1>
 	   <p>  Una base de datos es una herramienta para recopilar y organizar información. Las bases de datos pueden almacenar información sobre personas, productos, pedidos u otras cosas.<br> Muchas bases de datos comienzan como una lista en una hoja de cálculo o en un programa de procesamiento de texto.<br>
              A medida que la lista aumenta su tamaño, empiezan a aparecer redundancias e inconsistencias en los datos. Cada vez es más difícil comprender los datos en forma de lista <br>y los métodos de búsqueda o extracción de subconjuntos de datos para revisión son limitados. <br> Una vez que estos problemas empiezan a aparecer,
