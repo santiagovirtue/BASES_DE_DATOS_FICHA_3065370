@@ -15,6 +15,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 8. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
 16.🐱‍👤 Julian lozano 
+17.🎮 **Michael Rey**
 18.💗​ **Fernanda Barrera**
 19.⚽ **Cesar Capacho**
 21. 🤓 **Kevin Perez**
