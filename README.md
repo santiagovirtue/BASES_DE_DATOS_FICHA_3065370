@@ -15,6 +15,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 8. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
 19.⚽ **Cesar Capacho**
+21. 🤓 **Kevin Perez**
 24. ☺️ **Nubia Yesenia Campos Ortega**
 37. **Señor Lapiz***
 
