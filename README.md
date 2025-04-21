@@ -5,30 +5,35 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 
 ## 📌 Participantes
 
-1. 🚀 **Belman Marin Franco**
+0. 🚀 **Belman Marin Franco**
+1. 🦊 **Henry Forero Lopez**
 2. 🎸 **María López**
-3. 🏀 **Carlos Ramírez**
-4. 🎨 **Ana Torres**
+3. 🏀 **Cristian Baena**
+4. 🎨 **Anderson Alzate**
 5. 🎉 **Frank Caceres**
+6. Santiago Gutierrez Acevedo
+7. 🎸 **Kevin Andrès Rojas** 
+8. 🐲 **Sebastián Ardila**
+9. 🙊 **David Castillo**
+10. 🎉 **Frank Caceres**
+11. 🛹 **Esteban Velandia**
 12.🙃 **Cristian Martinez**
+14.😆 **Jhon Aguilera**   
+16.🐱‍👤 Julian lozano 
+17.🎮 **Michael Rey**
+18.💗​ **Fernanda Barrera**
+19.⚽ **Cesar Capacho**
+20. 🥰 **Ruth Denis Alvarez Buitrago**
+21. 🤓 **Kevin Perez**
+24. ☺️ **Nubia Yesenia Campos Ortega**
+27. 🚀 **Sergio David Gutiérrez Miranda** 
+28.👺 **Jhoan Noscue**
+29. ⚽​ **Jeremy Lopez**
+30. 🐱‍👤 **Daniel Pedreros**
+37. **Señor Lapiz***
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
 
 ## 🛠 Ayuda para Markdown
 
@@ -40,7 +45,7 @@ Aquí algunas referencias rápidas para formatear este archivo correctamente:
 - Listas:
   - `- Elemento 1`
   - `- Elemento 2`
-- Links: `[Texto del enlace](https://ejemplo.com)`
+- Links: `[dia del mes](https://ejemplo.com)`
 - Imágenes: `![Texto alternativo](https://url-de-la-imagen.com)`
 
 Para más información, consulta la guía oficial de Markdown: [Markdown Guide](https://www.markdownguide.org/)

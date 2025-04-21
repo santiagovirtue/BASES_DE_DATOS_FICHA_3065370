@@ -10,9 +10,191 @@
 <body>
     <div class="container">
         <h1>Normalización.</h1>
+        <h3 style="color: #A4A433;">3.1. Dependencias funcionales.</h3>
+	    <p>Dependencia funcional puede referirse a un estado de una persona que necesita ayuda para realizar actividades cotidianas, o a una relación entre atributos en bases de datos. </p>
+	    <h6><c>Dependencia funcional en personas</c></h6>
+	    <li>
+		    <ul> Se refiere a la necesidad de ayuda para realizar actividades cotidianas.  </ul>
+		    <ul> Se puede deber a una pérdida de autonomía física, psíquica o intelectual. </ul>
+		    <ul> La Organización Mundial de la Salud (OMS) define la dependencia funcional como la disminución o ausencia de capacidad para realizar actividades normales. </ul>	    
+	    </li>
+	    <h6><c>Dependencia funcional en base de datos</c></h6>
+	    <li>
+		    <ul> Se refiere a la relación entre atributos de una tabla.  </ul>
+		    <ul> Es un concepto importante para diseñar bases de datos eficientes y garantizar la integridad de los datos. </ul>
+		    <ul> Se utiliza para determinar si las relaciones propuestas por un modelo pueden presentar anomalías. </ul>
+		    <ul> Se verifican a través de los axiomas de Armstrong. </ul>	    
+	    </li>
+	    <h6><c>Dependencia funcional en matematicas y logica</c></h6>
+	    <li>
+		    <ul> Se refiere a que determinados entes matemáticos pueden expresarse como funciones matemáticas de otros entes. </ul>
+	    </li>
+	    
+	<h3 style="color: #A4A433;"><i>3.2. Diseño relacional.</i></h3>
+	    <p>El diseño racional es una metodología que se basa en la toma de decisiones informadas y sistemáticas para resolver problemas de diseño. Se aplica en diversos campos, como el diseño de máquinas, el diseño de fármacos y el diseño de proteínas. En el ámbito de bases de datos, el diseño racional se enfoca en la creación de estructuras de datos optimizadas, robustas y fáciles de mantener. Es un enfoque que prioriza la claridad, la eficiencia y la flexibilidad, asegurando que el modelo de datos sea tanto efectivo como escalable.</p>
+	    
+	    <p>En el contexto de las bases de datos, el diseño racional implica varios pasos fundamentales para asegurar que la base de datos cumpla con las necesidades del sistema de información y las expectativas de los usuarios. Estos son algunos principios clave:</p>
+
+	    <ul>
+		    <li><strong>Normalización:</strong> El proceso de descomponer tablas para evitar redundancias y asegurar que los datos sean consistentes, minimizando así el riesgo de anomalías.</li>
+		    <li><strong>Eliminación de dependencias:</strong> Asegurarse de que no existan dependencias innecesarias entre atributos, lo que mejora la eficiencia y la integridad de la base de datos.</li>
+		    <li><strong>Uso de claves primarias:</strong> Determinar atributos clave que identifican de forma única cada registro en una tabla para garantizar la integridad de los datos.</li>
+		    <li><strong>Consideración de relaciones entre tablas:</strong> Organizar las relaciones entre tablas de forma lógica y eficaz, utilizando claves foráneas para establecer vínculos.</li>
+		    <li><strong>Escalabilidad:</strong> Diseñar bases de datos que puedan crecer de manera eficiente a medida que aumentan los volúmenes de datos o las necesidades del sistema.</li>
+		    <li><strong>Optimización:</strong> Asegurarse de que las consultas y las operaciones de la base de datos se realicen de manera eficiente, minimizando el tiempo de respuesta y el uso de recursos.</li>
+	    </ul>
+
+	    <p>En cuanto al diseño racional en biotecnología, este concepto se aplica en el diseño de proteínas artificiales y la modificación de cadenas polipeptídicas. Los investigadores utilizan el diseño racional para manipular la secuencia de aminoácidos de una proteína con el objetivo de alterar sus propiedades funcionales, mejorando así el rendimiento de medicamentos o la creación de nuevos productos biotecnológicos. Este enfoque se basa en un entendimiento profundo de la estructura y la función de las proteínas, lo que permite a los científicos realizar modificaciones precisas y predecibles.</p>
+	    
+	    <p>En resumen, el diseño racional busca construir soluciones eficientes, estructuradas y alineadas con los objetivos y necesidades de un sistema. En bases de datos, esto asegura una estructura bien organizada, eficiente y libre de redundancias, mientras que en otras disciplinas, puede generar innovaciones significativas al aplicar principios científicos sistemáticos a la ingeniería y la biotecnología.</p>
+	    
+	    <h2>Concepto</h2>
+	    <p>La normalización es el proceso de ajustar, transformar o estandarizar datos, valores o estructuras para que sigan un formato o criterio común. Dependiendo del contexto, la normalización puede tener diferentes significados. Aquí te doy algunos ejemplos de normalización en distintos ámbitos:</p>
+
+<ol>
+    <li>
+        <strong>Normalización en Bases de Datos (Modelo Relacional):</strong>
+        <p>En el contexto de bases de datos, la normalización es el proceso de organizar los datos para minimizar la redundancia y evitar problemas como la inconsistencia. Se lleva a cabo dividiendo una base de datos en tablas más pequeñas y estableciendo relaciones entre ellas. Las etapas de normalización se denominan formas normales (1FN, 2FN, 3FN, etc.).</p>
+        <p><strong>Ejemplo:</strong></p>
+        <p>En una tabla de "clientes" y "pedidos", en lugar de almacenar repetidamente la información del cliente para cada pedido, se separa la información del cliente en una tabla propia y se establece una relación entre las tablas mediante claves foráneas.</p>
+    </li>
+    
+    <li>
+        <strong>Normalización en Estadística y Análisis de Datos:</strong>
+        <p>En este contexto, la normalización se refiere a transformar datos para que estén en una escala común. Esto es útil cuando se comparan datos que tienen unidades o escalas diferentes. Por ejemplo, convertir un conjunto de datos a un rango de 0 a 1 o a una distribución con media 0 y desviación estándar 1 (esto se llama normalización Z-score).</p>
+        <p><strong>Ejemplo:</strong></p>
+        <p>Si tenemos un conjunto de edades y salarios, normalizar esos datos podría ser útil para compararlos, ya que los salarios tienen un rango mucho más amplio que las edades.</p>
+    </li>
+    
+    <li>
+        <strong>Normalización en Matemáticas y Física:</strong>
+        <p>En este contexto, la normalización significa hacer que un vector tenga una longitud (o magnitud) igual a 1. Es útil en áreas como el procesamiento de señales, gráficos por computadora y más.</p>
+        <p><strong>Ejemplo:</strong></p>
+        <p>En gráficos por computadora, la normalización de un vector de dirección asegura que su longitud sea 1, lo que facilita cálculos como las rotaciones o las proyecciones.</p>
+    </li>
+    
+    <li>
+        <strong>Normalización de Precios o Productos:</strong>
+        <p>En comercio o economía, la normalización puede referirse al proceso de ajustar los precios de productos o servicios para que se comparen de manera justa, independientemente de las fluctuaciones del mercado o las diferentes condiciones de los vendedores.</p>
+        <p><strong>Ejemplo:</strong></p>
+        <p>Imagina que tienes varios productos en diferentes tamaños y marcas, y quieres comparar sus precios de manera justa. Uno de los métodos comunes es calcular el precio por unidad o precio por cantidad. Este método estandariza los precios para que todos los productos sean comparables sin tener en cuenta el tamaño o la marca.</p>
+    </li>
+</ol>
+	<p><strong>Imagenes</strong></p>
+    		<img src="https://bookdown.org/paranedagarcia/database/images/db-3fn.jpg" alt="Normalizacion en base de datos" width="800" height="400">
+	    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLO_5zIEJUC1jsEnX8H5BWcZ-6axYQ9i6cwQ&s" alt="Normalización en Estadística y Análisis de Datos" width="800" height="400">
+
+	    <p>La normalización es algo super importante ya que es importante.</p>
         <p>3.1. Dependencias funcionales.</p>
+		<ui>Es una dependencia auqella forma para mejorar la base de datos. Profe coloqueme 5, gracias.
+			Saludos.</ui>
+	    <p> Aqui estuvo el Daniel </p>	
+
+	    
 	<p>3.2. Diseño relacional.</p>
 	<p>3.3. Reglas de Integridad.</p>
+	    Una vez definida la estructura de datos del modelo relacional, pasamos a estudiar las reglas de integridad que los datos almacenados en dicha estructura deben cumplir para garantizar que son correctos. Pero antes de abordar este tema definiremos el concepto de integridad:
+
+Integridad se refiere  a la corrección o exactitud de la información contenida en la base de datos. Una base de datos puede estar sujeta a una serie de restricciones de integridad de una complejidad arbitraria.
+Un ejemplo de integridad siguiendo con nuestro ejemplo de la relación Alumnos es la siguiente:
+	    <br>
+	    <br>
+Un alumno no puede tener más de una matrícula. Por lo que podemos decir que la integridad es el término utilizado para decir que la información almacenada tiene calidad. Una vez definida la estructura de datos del modelo relacional, pasamos a definir las reglas de integridad de los datos almacenados que en dicha estructura deben cumplir para garantizar que son correctos. Al definir cada atributo sobre un dominio se impone una restricción sobre el conjunto de valores permitidos para cada atributo, a este tipo de restricciones se les denomina restricciones de dominios. Hay además dos reglas de integridad muy importantes que son restricciones que se deben cumplir en todas las bases de datos relacionales y en todos sus estados o instancias (las reglas se deben cumplir todo el tiempo). Estas reglas son la regla de integridad de dominios, la regla de integridad de entidades y la regla de integridad referencial, pero antes de definirlas es preciso conocer el concepto de nulo y de dominio (el cual ya se definió en el apartado anterior). Nulo. Cuando en una tupla un atributo es desconocido, se dice que es nulo. Un nulo no representa el valor cero ni la cadena vacía, éstos son valores que tienen significado. 
+	    <br>
+	    <br>
+El nulo implica ausencia de información, bien porque al insertar la tupla se desconocía el valor del atributo, o bien porque para dicha tupla el atributo no tiene sentido.
+Debido a que los nulos no son valores, deben tratarse de modo diferente, lo que causa problemas de implementación. De hecho, no todos los SGBD relacionales soportan los nulos.
+	    <br>
+	    <br>
+<h2>* Regla de integridad de dominios:</h2>
+Un dominio de valores posibles puede estar asociado a cada atributo. Los límites de dominio son la forma más elemental de restricciones de integridad, son fáciles de probar en el sistema siempre que se introduce un nuevo dato en el sistema. Una definición adecuada de restricciones de dominio no sólo nos permite probar valores insertados en la base de datos, sino también probar consultas para asegurar que la comparación que se hace tiene sentido.
+
+En una tabla Empleados, el campo Edad debe ser un número entero y debe estar dentro de un rango lógico, como entre 18 y 100 años.
+
+// Ejemplo: En una tabla Empleados, el campo Edad debe ser un número entero y debe estar dentr|o de un rango lógico, como entre 18 y 100 años.
+	    <br>
+	    <br>
+	<img src= "R.I DOMINIO.jpg" />
+	    <br>
+	    <br>
+<h3>* Integridad de Unicidad:</h3>
+Esta regla asegura que los valores en una columna sean únicos, lo que significa que no se pueden duplicar los valores en dicha columna.
+
+// Ejemplo: En una tabla Usuarios, el campo Email debe ser único para cada usuario, lo que significa que dos usuarios no pueden tener el mismo correo electrónico.
+	    <br>
+	    <br>
+	<img src= "R.I. UNICIDAD.jpg" />
+	    <br>
+	    <br>
+<h4>* Integridad de entidad:</h4>
+
+Las restricciones de entidades aseguran la integridad de las entidades que son modeladas por el sistema. La existencia de una clave principal es una restricción de entidad que impone la regla “cada entidad debe estar identificada de forma única”; en esta no está permitido que ningún componente de la clave primaria de cualquier registro acepte valores nulos y que debe comprobar que los atributos que forman parte de una llave primaria son diferentes de nulos y que el valor conjunto de ellos no está repetido en el proceso de inserción y actualización.
+
+Las razones de esta regla son las siguientes:
+
+Las tuplas en las relaciones base representan entidades en la realidad.
+Las entidades en la realidad son identificables por definición.
+Sus contrapartes en la base de datos también deben ser identificables.
+Los valores de la clave primaria sirven como identificadores en la base de datos.
+Los valores de clave primaria no pueden estar nulos.
+Cada entidad debe tener un campo llave; siguiendo con nuestro ejemplo de la relación Alumnos, la matrícula.
+
+// Ejemplo: En una tabla Clientes, el campo ID_Cliente debe ser único para cada cliente. Si intentas insertar un cliente con un ID_Cliente que ya existe, la base de datos no lo permitirá.
+	    <br>
+	    <br>
+	<img src= "R.I ENTIDAD.jpg" />
+	    <br>
+	    <br>
+<h5>* Integridad referencial:</h5>
+
+La regla de integridad referencial, no debe contener valores de clave ajena sin concordancia. Esta regla de integridad referencial se aplica a las claves ajenas; si en una relación hay alguna clave ajena, sus valores deben coincidir con valores de la clave primaria a la que hace referencia, o bien debe ser completamente nulo.
+Esta regla aplicada a nuestro ejemplo impide que un alumno que no exista tenga calificación en un curso.
+
+Por lo tanto, para cada clave ajena de la base de datos habrá que contestar a tres preguntas:
+
+Regla de los nulos: ¿Tiene sentido que la clave ajena acepte nulos?
+Regla de borrado: ¿Qué ocurre si se intenta borrar la tupla referenciada por la clave ajena?
+Restringir: no se permite borrar la tupla referenciada. 
+Propagar: se borra la tupla referenciada y se propaga el borrado a las tuplas que la referencian mediante la clave ajena. 
+Anular: se borra la tupla referenciada y las tuplas que la referenciaban ponen a nulo la clave ajena (sólo si acepta nulos).
+
+Regla de modificación: ¿Qué ocurre si se intenta modificar el valor de la clave primaria de la tupla referenciada por la clave ajena?
+Restringir: no se permite modificar el valor de la clave primaria de la tupla referenciada. 
+Propagar: se modifica el valor de la clave primaria de la tupla referenciada y se propaga la modificación a las tuplas que la referencian mediante la clave ajena. 
+Anular: se modifica la tupla referenciada y las tuplas que la referenciaban ponen a nulo la clave ajena (sólo si acepta nulos).
+
+La integridad referencial también vigila que se cumplan las siguientes reglas:
+No se podrá introducir un valor en la tabla relacionada si antes no ha sido introducida en la tabla principal.
+No se puede eliminar un registro de una tabla principal si existen registros coincidentes en la tabla principal.
+No se puede cambiar un valor de la clave principal (campo llave) en la tabla principal si el registro tiene registros relacionados.
+
+// Ejemplo: En una base de datos con una tabla Pedidos y una tabla Clientes, el campo ID_Cliente en la tabla Pedidos debe hacer referencia a un cliente válido en la tabla Clientes.
+	     <br>
+	    <br>
+	<img src= "R.I REFERENCIAL.jpg" />
+	    <br>
+	    <br>
+<h6>* Integridad de Completitud:</h6>
+Esta regla asegura que todos los valores de las columnas requeridas no sean nulos (NOT NULL), es decir, que no falten datos obligatorios.
+
+// Ejemplo: En una tabla Productos, el campo Precio no debe ser nulo, ya que es esencial para calcular las ventas. Se puede asegurar con una restricción NOT NULL.
+En este caso, la restricción NOT NULL en el campo Precio asegura que siempre debe existir un precio para cada producto.
+	    <br>
+	    <br>
+	<img src= "R.I COMPLETITUD.jpg" />
+	    <br>
+	    <br>
+<h7>* Integridad de Usuario:</h7>
+Esta regla se refiere a la integridad de los datos que es impuesta por el propio usuario o administrador de la base de datos, más allá de las reglas automáticas. Se pueden crear restricciones adicionales según el modelo de negocio.
+
+//Ejemplo: En una tienda en línea, un campo Cantidad en la tabla Pedidos no debe ser negativo, ya que no tiene sentido tener una cantidad negativa de productos en un pedido. Esto se puede asegurar mediante una restricción de comprobación (check).
+	    <br>
+	    <br>
+	<img src= "R.I USUARIO.jpg" />
+	    <br>
+	    <br>
+Aquí, la restricción asegura que la Cantidad nunca será negativa.
+
 	<p>3.4. Lenguajes de los sistemas administradores de bases de datos.</p>
 <article>
 		    <h4>Definicion:</h4>
