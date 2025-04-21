@@ -42,4 +42,94 @@ nav ul li a:hover {
 .back:hover {
     text-decoration: underline;
 }
+/*Estos son los estilos para Modelo entidad Relacion*/
+.contenedor-investigacion {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.encabezado-investigacion {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.caja-investigacion {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caja-investigacion h2 {
+    color: #0073e6;
+}
+
+.caja-investigacion p, .caja-investigacion ul {
+    line-height: 1.6;
+}
+
+.caja-investigacion ul {
+    padding-left: 20px;
+}
+
+/* Estilos para imágenes y contenedores */
+.imagen-investigacion {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen-investigacion img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-investigacion p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Diseño Responsivo */
+@media screen and (max-width: 600px) {
+    .contenedor-investigacion {
+        padding: 10px;
+    }
+
+    .encabezado-investigacion {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .caja-investigacion {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .caja-investigacion h2 {
+        font-size: 22px;
+    }
+
+    .caja-investigacion p, .caja-investigacion ul {
+        font-size: 14px;
+    }
+
+    .imagen-investigacion img {
+        max-width: 90%;
+    }
+}
+/*Aqui terminan los estilos de modelo entidad relacion*/
 </style>
