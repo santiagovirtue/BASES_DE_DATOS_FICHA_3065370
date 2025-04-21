@@ -17,6 +17,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 9. 🙊 **David Castillo**
 10. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
+12.🙃 **Cristian Martinez**
 14.😆 **Jhon Aguilera**   
 16.🐱‍👤 Julian lozano 
 17.🎮 **Michael Rey**
@@ -30,6 +31,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 29. ⚽​ **Jeremy Lopez**
 30. 🐱‍👤 **Daniel Pedreros**
 37. **Señor Lapiz***
+
 
 
 
@@ -49,3 +51,5 @@ Aquí algunas referencias rápidas para formatear este archivo correctamente:
 Para más información, consulta la guía oficial de Markdown: [Markdown Guide](https://www.markdownguide.org/)
 
 🚀 ¡Feliz edición! 🎉
+
+
