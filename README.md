@@ -12,7 +12,8 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 5. 🎉 **Frank Caceres**
 6. 🎸 **Kevin Andrès Rojas** 
 7. 🐲 **Sebastián Ardila**
-8. 🎉 **Frank Caceres**
+8. 🙊 **David Castillo**
+9. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
 14.😆 **Jhon Aguilera**   
 16.🐱‍👤 Julian lozano 
@@ -25,7 +26,6 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 30. 🐱‍👤 **Daniel Pedreros**
 37. **Señor Lapiz***
 
----
 
 ## 🛠 Ayuda para Markdown
 
