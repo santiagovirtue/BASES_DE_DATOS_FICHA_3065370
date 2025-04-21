@@ -20,8 +20,8 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 19.⚽ **Cesar Capacho**
 21. 🤓 **Kevin Perez**
 24. ☺️ **Nubia Yesenia Campos Ortega**
+30. 🐱‍👤 **Daniel Pedreros**
 37. **Señor Lapiz***
-
 
 ---
 
