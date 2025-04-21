@@ -10,7 +10,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 3. 🏀 **Cristian Baena**
 4. 🎨 **Ana Torres**
 5. 🎉 **Frank Caceres**
-6. **Kevin Andres Rojas**
+6. 🎸 **Kevin Andrès Rojas** 
 7. 🐲 **Sebastián Ardila**
 8. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
