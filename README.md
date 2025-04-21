@@ -19,6 +19,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 17.🎮 **Michael Rey**
 18.💗​ **Fernanda Barrera**
 19.⚽ **Cesar Capacho**
+20. 🥰 **Ruth Denis Alvarez Buitrago**
 21. 🤓 **Kevin Perez**
 24. ☺️ **Nubia Yesenia Campos Ortega**
 30. 🐱‍👤 **Daniel Pedreros**
