@@ -23,6 +23,7 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 20. 🥰 **Ruth Denis Alvarez Buitrago**
 21. 🤓 **Kevin Perez**
 24. ☺️ **Nubia Yesenia Campos Ortega**
+29. ⚽​ **Jeremy Lopez**
 30. 🐱‍👤 **Daniel Pedreros**
 37. **Señor Lapiz***
 
