@@ -7,15 +7,16 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 
 0. 🚀 **Belman Marin Franco**
 2. 🎸 **María López**
-3. 🏀 **Carlos Ramírez**
+3. 🏀 **Cristian Baena**
 4. 🎨 **Ana Torres**
 5. 🎉 **Frank Caceres**
-
+6. **Kevin Andres Rojas**
+7. 🐲 **Sebastián Ardila**
+8. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
-6. **Kevin Andres Rojas**
-=======
+19.⚽ **Cesar Capacho**
 24. ☺️ **Nubia Yesenia Campos Ortega**
-6. **Kevin Andres Rojas**
+37. **Señor Lapiz***
 
 ---
 
