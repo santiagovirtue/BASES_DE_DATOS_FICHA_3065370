@@ -17,17 +17,17 @@ Cada estudiante deberá modificar este archivo **README.md**, colocando un emoji
 9. 🙊 **David Castillo**
 10. 🎉 **Frank Caceres**
 11. 🛹 **Esteban Velandia**
-12.🙃 **Cristian Martinez**
-14.😆 **Jhon Aguilera**   
-16.🐱‍👤 Julian lozano 
-17.🎮 **Michael Rey**
-18.💗​ **Fernanda Barrera**
-19.⚽ **Cesar Capacho**
+12. 🙃 **Cristian Martinez**
+14. 😆 **Jhon Aguilera**   
+16. 🐱‍👤 Julian lozano 
+17. 🎮 **Michael Rey**
+18. 💗​ **Fernanda Barrera**
+19. ⚽ **Cesar Capacho**
 20. 🥰 **Ruth Denis Alvarez Buitrago**
 21. 🤓 **Kevin Perez**
 24. ☺️ **Nubia Yesenia Campos Ortega**
 27. 🚀 **Sergio David Gutiérrez Miranda** 
-28.👺 **Jhoan Noscue**
+28. 👺 **Jhoan Noscue**
 29. ⚽​ **Jeremy Lopez**
 30. 🐱‍👤 **Daniel Pedreros**
 37. **Señor Lapiz***
